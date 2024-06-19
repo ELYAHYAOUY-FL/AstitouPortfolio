@@ -38,7 +38,8 @@ type TConfig = {
     experience: TSection; // 'items' is not required here
     education: TSection; // 'items' is required here
     feedbacks: TSection; // 'items' is not required here
-    works: Required<TSection>; // 'items' is required here
+    skills: TSection;// 'items' is required here
+    works: Required<TSection>; 
   };
 };
 
@@ -121,6 +122,12 @@ export const config: TConfig = {
       p: "My work",
       h2: "Projects.",
       content: `Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories . It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.`,
+      items: [], // Specify 'items' as an empty array or with actual content
+    },
+    skills: {
+      p: "what I Can Offre  ",
+      h2: "Skills.",
+     
       items: [], // Specify 'items' as an empty array or with actual content
     },
   },

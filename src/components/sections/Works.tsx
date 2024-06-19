@@ -30,7 +30,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
           <div className="relative h-[230px] w-full">
             <img
               src={image}
-              alt={name}
+             
               className="h-full w-full rounded-2xl object-cover"
             />
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">

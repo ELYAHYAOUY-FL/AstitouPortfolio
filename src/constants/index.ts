@@ -188,68 +188,144 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "MLOps Integration for Malware Detection",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Development of two models: one based on signatures and another on images. Backup and deployment of models via a web interface with Flask and Angular. Using MLOps practices to manage the model lifecycle.",
     tags: [
       {
-        name: "react",
+        name: "OpenCV",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Sklearn",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Docker",
         color: "pink-text-gradient",
       },
+      {
+        name: "Kubernetes",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GitHub CI/CD",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: "image_url_here", // Replace with actual image URL
+    sourceCodeLink: "https://github.com/your_repo_link_here", // Replace with actual GitHub link
   },
   {
-    name: "Job IT",
+    name: "Real-time Churn Prediction",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Development of a web application using Apache Kafka Streams to predict customer churn in real-time. Data preprocessing with PySpark Mlib, training multiple models, saving the best model for predictions, storing results in MongoDB, and displaying via Flask or Django.",
     tags: [
       {
-        name: "react",
+        name: "Apache Kafka Streams",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "PySpark Mlib",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Flask",
         color: "pink-text-gradient",
       },
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: "image_url_here", // Replace with actual image URL
+    sourceCodeLink: "https://github.com/your_repo_link_here", // Replace with actual GitHub link
   },
   {
-    name: "Trip Guide",
+    name: "Simulation of Enterprise Architecture",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+      "Design and integration of an enterprise architecture with Nagios monitoring, utilizing Windows Server for Active Directory, ensuring network security, and implementing backup and high availability solutions.",
+    tags:  [
       {
-        name: "nextjs",
+        name: "FreeBSD",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "FreeNAS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Windows Server",
         color: "pink-text-gradient",
       },
+      {
+        name: "GNS3",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Nagios",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Heartbeat",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ids/ips",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "par-feu ",
+        color: "green-text-gradient",
+      },
+    
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: "image_url_here", // Replace with actual image URL
+    sourceCodeLink: "https://github.com/your_repo_link_here", // Replace with actual GitHub link
   },
+  {
+    name: "Secure Development of a Web Application",
+    description:
+      "Secure design and development of a web application based on a microservices architecture, using Angular, Flask, Spring Boot, Spring Security, and REST APIs. Expertise in securing against XSS and CSRF attacks.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Spring Security",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API REST",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "image_url_here", // Replace with actual image URL
+    sourceCodeLink: "https://github.com/your_repo_link_here", // Replace with actual GitHub link
+  },
+  
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

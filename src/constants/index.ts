@@ -27,9 +27,6 @@ import {
   meta,
   starbucks,
 
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 

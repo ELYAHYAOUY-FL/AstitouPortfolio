@@ -1,7 +1,4 @@
 import React from "react";
-import { Header } from "../atoms/Header";
-import { config } from "../../constants/config";
-
 
 
 

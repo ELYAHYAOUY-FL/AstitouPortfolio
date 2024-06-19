@@ -33,6 +33,7 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
+    education: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
   };
@@ -40,13 +41,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
+    title: "mohamed astitou ",
+    fullName: "mohamed astitou",
     email: "johndoe@mail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "mohamed astitou",
+    p: ["Software engineer and Master's student in  Security IT and Big Data"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +68,36 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      
+      content: `As a passionate software engineer and Master's student in IT Security and Big Data, I am committed to exploring the latest technologies and solving complex problems. My background reflects a blend of analytical thinking, innovative problem-solving, and effective teamwork, underscoring my dedication and rigorous work ethic.`,
+      
+    },
+    education: {
+      p: "",
+      h2: "Education.",
+      items:[
+        {
+            "date": "2023 - 2025",
+            "title": "Master's in IT Security and Big Data",
+            "institution": "Faculty of Sciences and Techniques in Tangier"
+        },
+        {
+            "date": "2019 - 2023",
+            "title": "Bachelor's  in Mathematical and Computer Sciences",
+            "institution": "Multidisciplinary Faculty of Larache"
+        },
+        {
+            "date": "2022",
+            "title": "CCNA (Cisco Certified Network Associate)",
+            "institution": "Cisco Networking Academy"
+        },
+        {
+            "date": "2018 - 2019",
+            "title": "Baccalaureate  Mathematical Sciences",
+            "institution": "Moulay Mohammed Ben Abdellah High School, Larache"
+        }
+    ],
+    
     },
     experience: {
       p: "What I have done so far",

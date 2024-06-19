@@ -55,7 +55,7 @@ const technologies = [
   {
     category: "Networking and Virtualisation",
     items: [
-      { name: "Packet Tracer", icon: "https://img.icons8.com/ios-filled/50/000000/network.png" },
+      { name: "Packet Tracer", icon: "https://fileinfo.com/img/icons/files/256/pksz-12600.png" },
       { name: "GNS3", icon: "https://cdn.icon-icons.com/icons2/1381/PNG/512/gns3_94911.png" },
       { name: "Wireshark", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/800px-Wireshark_icon_new.png" },
       { name: "VMware ESXi", icon: "https://img.icons8.com/ios-filled/50/000000/virtual-machine.png" },

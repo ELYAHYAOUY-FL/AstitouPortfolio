@@ -44,10 +44,8 @@ const Contact = () => {
         EMAILJS_SERVICE_ID,
         EMAILJS_TEMPLATE_ID,
         {
-          form_name: form.name,
-          to_name: config.html.fullName,
-          from_email: form.email,
-          to_email: config.html.email,
+          name: form.name,       // Pass form.name as 'name' in template
+          email: form.email,     // Pass form.email as 'email' in template
           message: form.message,
         },
         EMAILJS_ACCESS_TOKEN

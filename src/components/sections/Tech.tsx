@@ -82,7 +82,7 @@ const technologies = [
 const Tech: React.FC = () => {
   return (
     <div>
-      <Header useMotion={true} {...config.sections.skills} />
+ 
       {technologies.map((techCategory) => (
         <div key={techCategory.category} className="mb-10">
           <div className="flex flex-row flex-wrap justify-center gap-10">
